@@ -7,9 +7,11 @@ Use JavaScript functions for dynamic behavior.
 Implement local storage for data persistence.
 
 ## Instructions
+
 Add CSS animations to elements like buttons or images.
 
 >[!NOTE]
+>
 > - Write a JavaScript function that:
 > - Stores and retrieves user preferences using localStorage.
 > - Implements an animation triggered by user actions.
@@ -20,12 +22,14 @@ Create a CSS animation.
 Store data in localStorage.
 Apply JavaScript to trigger animations.
 
-# Task Manager Webpage
+## Task Manager Webpage
 
 ## Overview
+
 This project is a dynamic and interactive **Task Manager** webpage built to demonstrate CSS3 transitions and animations, JavaScript functions, and localStorage for data persistence. It allows users to add, view, and delete tasks with a modern, user-friendly interface. The webpage features smooth animations, transitions, and persistent task storage, making it a practical tool for managing to-do lists.
 
 ## Features
+
 - **CSS Animations and Transitions**:
   - Smooth hover effects on the "Add Task" button (scale and color change).
   - Pulse animation when clicking the "Add Task" button.
@@ -44,12 +48,14 @@ This project is a dynamic and interactive **Task Manager** webpage built to demo
   - Task list has a maximum width for readability.
 
 ## Technologies Used
+
 - **HTML5**: Structure of the webpage.
 - **CSS3**: Styling, transitions, and animations (e.g., keyframes for fade-in and pulse effects).
 - **JavaScript**: Dynamic behavior, event handling, and localStorage management.
 - **LocalStorage**: Browser API for persistent task storage.
 
 ## Setup and Running
+
 1. **Clone or Download**:
    - Copy the `index.html` file from this project to your local machine.
 2. **Run the Webpage**:
@@ -62,9 +68,11 @@ This project is a dynamic and interactive **Task Manager** webpage built to demo
    - **Persist Tasks**: Refresh the page to verify tasks are saved and reloaded from localStorage.
 
 ## File Structure
+
 - `index.html`: The main (and only) file containing HTML, CSS, and JavaScript for the Task Manager.
 
 ## Usage
+
 - **Adding Tasks**:
   - Enter a task in the input field (e.g., "Buy groceries").
   - Click the "Add Task" button or press Enter.
@@ -79,20 +87,24 @@ This project is a dynamic and interactive **Task Manager** webpage built to demo
   - Reloading the page retains all tasks.
 
 ## Notes
+
 - The webpage is fully client-side and does not require a backend or external dependencies.
 - Tasks are stored in localStorage as a JSON array, with each task having a unique ID (based on timestamp) and text content.
 - The design prioritizes simplicity and usability, with animations enhancing the user experience without overwhelming it.
 
 ## Future Improvements
+
 - Add task categories or priorities.
 - Implement task editing functionality.
 - Include a "Clear All Tasks" button.
 - Enhance styling with a CSS framework (e.g., Tailwind CSS) for more customization.
 
 ## License
+
 This project is open-source and available for educational purposes. Feel free to modify and distribute as needed.
 
 ## Acknowledgments
+
 Built as part of an assignment to showcase CSS3 animations, JavaScript interactivity, and localStorage usage in a practical context.
 
 Happy Task Managing! 💻✨
